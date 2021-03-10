@@ -11,7 +11,7 @@ public class JenkinsEc2Application {
 
 	@GetMapping("/")
 	public String home() {
-		return "This is EC2 Instance...!";
+		return "This is EC2 Instance...!!!";
 	}
 
 	public static void main(String[] args) {
